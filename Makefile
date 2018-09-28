@@ -1,0 +1,3 @@
+build:
+	GOOS=linux go build ./cmd/...
+	mv envoy-runner bin/
