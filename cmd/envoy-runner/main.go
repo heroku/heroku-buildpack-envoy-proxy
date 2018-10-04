@@ -129,7 +129,7 @@ func main() {
 	})
 
 	g.Go(func() error {
-		cmd := exec.Command("envoy", "-c", file.Name())
+		cmd := exec.Command("envoy", "-c", file.Name(), "--log-format", "[envoy] %v")
 		cmd.Stdout = os.Stdout
 		cmd.Stderr = os.Stderr
 		return cmd.Run()

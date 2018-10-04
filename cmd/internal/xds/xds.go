@@ -156,7 +156,7 @@ func socketaddress(address string, port uint32) core.Address {
 func (s *Server) populate(config cache.SnapshotCache) {
 	resp, err := http.Get(s.FeedURL)
 	if err != nil {
-		log.Printf("err fetching feed URL: %s", err)
+		log.Printf("[heroku-buildpack-envoy-proxy] xds - err fetching feed URL: %s", err)
 	}
 	defer resp.Body.Close()
 
@@ -173,15 +173,13 @@ func (s *Server) populate(config cache.SnapshotCache) {
 		)
 
 		if err := snapshot.Consistent(); err != nil {
-			log.Printf("snapshot inconsistency: %+v err=%s", snapshot, err)
+			log.Printf("[heroku-buildpack-envoy-proxy] xds - snapshot inconsistency: err=%s", err)
 		}
 
 		err := config.SetSnapshot(s.NodeID, snapshot)
 		if err != nil {
-			log.Printf("snapshot error %q for %+v", err, snapshot)
+			log.Printf("[heroku-buildpack-envoy-proxy] xds - set snapshot err=%s", err)
 		}
-
-		log.Printf("==> snapshot with version %s was set", version)
 
 		i++
 	}
@@ -221,10 +219,10 @@ func (h Hasher) ID(node *core.Node) string {
 type logger struct{}
 
 func (logger logger) Infof(format string, args ...interface{}) {
-	log.Printf("[WARN] "+format, args...)
+	log.Printf("[heroku-buildpack-envoy-proxy] [INFO] "+format, args...)
 }
 func (logger logger) Errorf(format string, args ...interface{}) {
-	log.Printf("[ERRO] "+format, args...)
+	log.Printf("[heroku-buildpack-envoy-proxy] [ERRO] "+format, args...)
 }
 
 // from contour
@@ -279,15 +277,12 @@ type callbacks struct {
 func (cb *callbacks) Report() {
 	cb.mu.Lock()
 	defer cb.mu.Unlock()
-	log.Printf("server callbacks: fetches=%d requests=%d", cb.fetches, cb.requests)
 }
 
 func (cb *callbacks) OnStreamOpen(_ context.Context, id int64, typ string) error {
-	log.Printf("stream %d open for %s", id, typ)
 	return nil
 }
 func (cb *callbacks) OnStreamClosed(id int64) {
-	log.Printf("stream %d closed", id)
 }
 func (cb *callbacks) OnStreamRequest(int64, *v2.DiscoveryRequest) {
 	cb.mu.Lock()
