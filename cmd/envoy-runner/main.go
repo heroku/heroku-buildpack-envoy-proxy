@@ -51,6 +51,8 @@ var config = struct {
 }
 
 func main() {
+	log.SetFlags(log.Lshortfile)
+
 	if config.RouterHealthcheckPort == "" {
 		fmt.Fprintf(os.Stderr, "envoy-daemon only works with spaces-router-bypass\n")
 		os.Exit(0)
