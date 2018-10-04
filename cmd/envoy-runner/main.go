@@ -256,6 +256,7 @@ var configTemplate = template.Must(template.New("config").Parse(`
         },
         "filter_chains": [
           {
+            "use_proxy_proto": true,
             "filters": [
               {
                 "name": "envoy.http_connection_manager",
