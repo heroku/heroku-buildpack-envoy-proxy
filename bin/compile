@@ -1,0 +1,15 @@
+#!/bin/bash
+
+arrow() {
+  echo '----->' "$@"
+}
+
+BUILD_DIR=$1
+
+arrow "Setting up .profile.d to automatically run envoy proxy..."
+mkdir -p "${BUILD_DIR}/.profile.d" "${BUILD_DIR}/bin"
+cp .profile.d/envoy-daemon.sh "${BUILD_DIR}/.profile.d"
+cp bin/heroku-xds-server      "${BUILD_DIR}/bin"
+cp bin/envoy-runner           "${BUILD_DIR}/bin"
+cp bin/envoy                  "${BUILD_DIR}/bin"
+

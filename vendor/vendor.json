@@ -1,0 +1,534 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "cJaY2EImR9Y1QioFsSUKJ+8H2os=",
+			"path": "github.com/envoyproxy/go-control-plane/envoy/api/v2",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "AylXGAToGHx+r8wYu2z5wncPbKs=",
+			"path": "github.com/envoyproxy/go-control-plane/envoy/api/v2/auth",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "ktA2ACmea64sl2j4C7ROuDjxwhs=",
+			"path": "github.com/envoyproxy/go-control-plane/envoy/api/v2/cluster",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "QAYvk4Jx/xlFOtKGjZ99wozTZj0=",
+			"path": "github.com/envoyproxy/go-control-plane/envoy/api/v2/core",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "XXTFdEmQ4Z87HD4AM1JRCGAEfmU=",
+			"path": "github.com/envoyproxy/go-control-plane/envoy/api/v2/endpoint",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "y9mv2tvEpzDmB3VJkwNpaNlRBmU=",
+			"path": "github.com/envoyproxy/go-control-plane/envoy/api/v2/listener",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "mt9wHH9qfmi7BnV8rUQWQsTPVeA=",
+			"path": "github.com/envoyproxy/go-control-plane/envoy/api/v2/route",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "9Cy5WLfLAddqA0NiTIwXUS9v3Q0=",
+			"path": "github.com/envoyproxy/go-control-plane/envoy/config/accesslog/v2",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "wic3APn/uIE4QJ4T2VLrik4Dp74=",
+			"path": "github.com/envoyproxy/go-control-plane/envoy/config/filter/accesslog/v2",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "5p2fH/CndYoTjYpxGxrMB/viBUM=",
+			"path": "github.com/envoyproxy/go-control-plane/envoy/config/filter/network/http_connection_manager/v2",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "GjTqbWDySjYllNnHOA/81+rr6es=",
+			"path": "github.com/envoyproxy/go-control-plane/envoy/config/filter/network/tcp_proxy/v2",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "mlPnfRVc3M159ZekCjzfPEJDzbE=",
+			"path": "github.com/envoyproxy/go-control-plane/envoy/data/accesslog/v2",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "Vw/BzgWrxGYpGsdLkyJdayxtGsQ=",
+			"path": "github.com/envoyproxy/go-control-plane/envoy/service/accesslog/v2",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "3DwfQPZMC1i4ZrvpB2mMZRZ7SHI=",
+			"path": "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v2",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "8DtGIr6Z3Alnd5s+htx1MgDZVoo=",
+			"path": "github.com/envoyproxy/go-control-plane/envoy/type",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "hAUeY2SDlc1qkYBal5DtrlKkPyM=",
+			"path": "github.com/envoyproxy/go-control-plane/pkg/cache",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "dS2Ygpy2UCR0+3pDbQ044t/Bzew=",
+			"path": "github.com/envoyproxy/go-control-plane/pkg/log",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "+UKdt3D0/NBW/kj2CRxSI69Lp1c=",
+			"path": "github.com/envoyproxy/go-control-plane/pkg/server",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "2YK89fR7dAYXbrLdKihlSPpSmAk=",
+			"path": "github.com/envoyproxy/go-control-plane/pkg/test",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "htk9DtDsRBQQv39emo5LpxlpZ5k=",
+			"path": "github.com/envoyproxy/go-control-plane/pkg/test/resource",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "wSN1NcSo9HdIigbVddGZ5xVxnzo=",
+			"path": "github.com/envoyproxy/go-control-plane/pkg/util",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "FiYzbJ+u43Hxt21KeV0URhTJIGo=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/github.com/gogo/googleapis/google/api",
+			"path": "github.com/gogo/googleapis/google/api",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "nhMevwzTKyKnZGUTyfmNI6qsLb4=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/github.com/gogo/googleapis/google/rpc",
+			"path": "github.com/gogo/googleapis/google/rpc",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "Gay+mu0LGL3M53eDVwTEbe2CjuY=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/github.com/gogo/protobuf/gogoproto",
+			"path": "github.com/gogo/protobuf/gogoproto",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "nDdhX1iBJuMhtp//Z9B7C2srOAE=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/github.com/gogo/protobuf/jsonpb",
+			"path": "github.com/gogo/protobuf/jsonpb",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "47nJ3iu1bVvK9jPXwAinFYr4mBU=",
+			"path": "github.com/gogo/protobuf/proto",
+			"revision": "61dbc136cf5d2f08d68a011382652244990a53a9",
+			"revisionTime": "2018-09-25T08:36:12Z"
+		},
+		{
+			"checksumSHA1": "4R7X2wRYYOxdXsoXOEcyBoCakb8=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/github.com/gogo/protobuf/protoc-gen-gogo/descriptor",
+			"path": "github.com/gogo/protobuf/protoc-gen-gogo/descriptor",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "HPVQZu059/Rfw2bAWM538bVTcUc=",
+			"path": "github.com/gogo/protobuf/sortkeys",
+			"revision": "61dbc136cf5d2f08d68a011382652244990a53a9",
+			"revisionTime": "2018-09-25T08:36:12Z"
+		},
+		{
+			"checksumSHA1": "yK31P3hm7p5eA5PczMByhK0Tj2U=",
+			"path": "github.com/gogo/protobuf/types",
+			"revision": "61dbc136cf5d2f08d68a011382652244990a53a9",
+			"revisionTime": "2018-09-25T08:36:12Z"
+		},
+		{
+			"checksumSHA1": "yqF125xVSkmfLpIVGrLlfE05IUk=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/github.com/golang/protobuf/proto",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "ncL+s9adFp/SJtoe69/WmHMZLCY=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/github.com/lyft/protoc-gen-validate/vendor/github.com/golang/protobuf/protoc-gen-go/descriptor",
+			"path": "github.com/golang/protobuf/protoc-gen-go/descriptor",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "VfkiItDBFFkZluaAMAzJipDXNBY=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/github.com/golang/protobuf/ptypes",
+			"path": "github.com/golang/protobuf/ptypes",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "CUN+8uU3mWzv9JNB2RXTefAuBb4=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/github.com/golang/protobuf/ptypes/any",
+			"path": "github.com/golang/protobuf/ptypes/any",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "hUjAj0dheFVDl84BAnSWj9qy2iY=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/github.com/golang/protobuf/ptypes/duration",
+			"path": "github.com/golang/protobuf/ptypes/duration",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "O2ItP5rmfrgxPufhjJXbFlXuyL8=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/github.com/golang/protobuf/ptypes/timestamp",
+			"path": "github.com/golang/protobuf/ptypes/timestamp",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "6UqKys+yl07KJWUotUAfF3N93Tw=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/github.com/lyft/protoc-gen-validate/validate",
+			"path": "github.com/lyft/protoc-gen-validate/validate",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "vRcu8DLpEnhOuaZ/M8iGl2CRG8Y=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/github.com/sirupsen/logrus",
+			"path": "github.com/sirupsen/logrus",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "6U7dCaxxIMjf5V02iWgyAwppczw=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/golang.org/x/crypto/ssh/terminal",
+			"path": "golang.org/x/crypto/ssh/terminal",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "GtamqiJoL7PGHsN454AoffBFMa8=",
+			"path": "golang.org/x/net/context",
+			"revision": "4dfa2610cdf3b287375bbba5b8f2a14d3b01d8de",
+			"revisionTime": "2018-09-26T15:41:24Z"
+		},
+		{
+			"checksumSHA1": "vW5BP2t+dbsrpRkfBtl6lqSt0MI=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/golang.org/x/net/http2",
+			"path": "golang.org/x/net/http2",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "ezWhc7n/FtqkLDQKeU2JbW+80tE=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/golang.org/x/net/http2/hpack",
+			"path": "golang.org/x/net/http2/hpack",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "RcrB7tgYS/GMW4QrwVdMOTNqIU8=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/golang.org/x/net/idna",
+			"path": "golang.org/x/net/idna",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "UxahDzW2v4mf/+aFxruuupaoIwo=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/golang.org/x/net/internal/timeseries",
+			"path": "golang.org/x/net/internal/timeseries",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "3xyuaSNmClqG4YWC7g0isQIbUTc=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/golang.org/x/net/lex/httplex",
+			"path": "golang.org/x/net/lex/httplex",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "u/r66lwYfgg682u5hZG7/E7+VCY=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/golang.org/x/net/trace",
+			"path": "golang.org/x/net/trace",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "S0DP7Pn7sZUmXc55IzZnNvERu6s=",
+			"path": "golang.org/x/sync/errgroup",
+			"revision": "1d60e4601c6fd243af51cc01ddf169918a5407ca",
+			"revisionTime": "2018-03-14T17:21:19Z"
+		},
+		{
+			"checksumSHA1": "lht0So3HAm5rNOAlpSsdZYscFEE=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/golang.org/x/sys/unix",
+			"path": "golang.org/x/sys/unix",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "Hi7BmkvZh4plNNLGDHfPnCKy3i8=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/golang.org/x/sys/windows",
+			"path": "golang.org/x/sys/windows",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "CbpjEkkOeh0fdM/V8xKDdI0AA88=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/golang.org/x/text/secure/bidirule",
+			"path": "golang.org/x/text/secure/bidirule",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "ziMb9+ANGRJSSIuxYdRbA+cDRBQ=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/golang.org/x/text/transform",
+			"path": "golang.org/x/text/transform",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "w8kDfZ1Ug+qAcVU0v8obbu3aDOY=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/golang.org/x/text/unicode/bidi",
+			"path": "golang.org/x/text/unicode/bidi",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "BCNYmf4Ek93G4lk5x3ucNi/lTwA=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/golang.org/x/text/unicode/norm",
+			"path": "golang.org/x/text/unicode/norm",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "Tc3BU26zThLzcyqbVtiSEp7EpU8=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/genproto/googleapis/rpc/status",
+			"path": "google.golang.org/genproto/googleapis/rpc/status",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "qniZg+TMtxqdBOxLukGnd5fBsmc=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc",
+			"path": "google.golang.org/grpc",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "B+kZFVP8zRiQMpoEb39Mp2oSmqg=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/balancer",
+			"path": "google.golang.org/grpc/balancer",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "lw+L836hLeH8+//le+C+ycddCCU=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/balancer/base",
+			"path": "google.golang.org/grpc/balancer/base",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "DJ1AtOk4Pu7bqtUMob95Hw8HPNw=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/balancer/roundrobin",
+			"path": "google.golang.org/grpc/balancer/roundrobin",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "R3tuACGAPyK4lr+oSNt1saUzC0M=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/codes",
+			"path": "google.golang.org/grpc/codes",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "XH2WYcDNwVO47zYShREJjcYXm0Y=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/connectivity",
+			"path": "google.golang.org/grpc/connectivity",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "wA6y5rkH1v4bWBe5M1r/Hdtgma4=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/credentials",
+			"path": "google.golang.org/grpc/credentials",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "cfLb+pzWB+Glwp82rgfcEST1mv8=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/encoding",
+			"path": "google.golang.org/grpc/encoding",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "LKKkn7EYA+Do9Qwb2/SUKLFNxoo=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/encoding/proto",
+			"path": "google.golang.org/grpc/encoding/proto",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "ZPPSFisPDz2ANO4FBZIft+fRxyk=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/grpclog",
+			"path": "google.golang.org/grpc/grpclog",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "8uLpHZuwD6Ug/QlvN94QyHaOack=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/internal",
+			"path": "google.golang.org/grpc/internal",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "uDJA7QK2iGnEwbd9TPqkLaM+xuU=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/internal/backoff",
+			"path": "google.golang.org/grpc/internal/backoff",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "8dcRbrJWAcFQIXVuchR6z4ItIzg=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/internal/channelz",
+			"path": "google.golang.org/grpc/internal/channelz",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "5dFUCEaPjKwza9kwKqgljp8ckU4=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/internal/envconfig",
+			"path": "google.golang.org/grpc/internal/envconfig",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "70gndc/uHwyAl3D45zqp7vyHWlo=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/internal/grpcrand",
+			"path": "google.golang.org/grpc/internal/grpcrand",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "3/+ZIaJhkKSSqt6Z3VDS0Q8zMXA=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/internal/transport",
+			"path": "google.golang.org/grpc/internal/transport",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "hcuHgKp8W0wIzoCnNfKI8NUss5o=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/keepalive",
+			"path": "google.golang.org/grpc/keepalive",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "OjIAi5AzqlQ7kLtdAyjvdgMf6hc=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/metadata",
+			"path": "google.golang.org/grpc/metadata",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "VvGBoawND0urmYDy11FT+U1IHtU=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/naming",
+			"path": "google.golang.org/grpc/naming",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "n5EgDdBqFMa2KQFhtl+FF/4gIFo=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/peer",
+			"path": "google.golang.org/grpc/peer",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "GEq6wwE1qWLmkaM02SjxBmmnHDo=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/resolver",
+			"path": "google.golang.org/grpc/resolver",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "90rwIeFK1zLW8M57MfzmejpCwP4=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/resolver/dns",
+			"path": "google.golang.org/grpc/resolver/dns",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "zs9M4xE8Lyg4wvuYvR00XoBxmuw=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/resolver/passthrough",
+			"path": "google.golang.org/grpc/resolver/passthrough",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "YclPgme2gT3S0hTkHVdE1zAxJdo=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/stats",
+			"path": "google.golang.org/grpc/stats",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "t/NhHuykWsxY0gEBd2WIv5RVBK8=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/status",
+			"path": "google.golang.org/grpc/status",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		},
+		{
+			"checksumSHA1": "qvArRhlrww5WvRmbyMF2mUfbJew=",
+			"origin": "github.com/envoyproxy/go-control-plane/vendor/google.golang.org/grpc/tap",
+			"path": "google.golang.org/grpc/tap",
+			"revision": "1f13d29c5def25a02b9149909472c6a9e6839551",
+			"revisionTime": "2018-09-25T00:20:03Z"
+		}
+	],
+	"rootPath": "github.com/heroku/heroku-buildpack-envoy-proxy"
+}
